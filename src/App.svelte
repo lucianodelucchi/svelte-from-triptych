@@ -1,11 +1,5 @@
 <script>
-	export let name;
+	import HomeLayout from './Views/Home.svelte';
 </script>
 
-<style>
-	h1 {
-		color: red;
-	}
-</style>
-
-<h1>Hello {name}!</h1>
+<HomeLayout/>
